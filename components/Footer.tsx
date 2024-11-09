@@ -22,7 +22,7 @@ const Footer = () => {
             </Link>
           </nav>
           <div className="flex space-x-4">
-            <Link href="#" className="text-gray-600 hover:text-black">
+            <Link href="#" className="text-gray-600 hover:text-black" aria-label="Facebook">
               <svg
                 className="h-6 w-6"
                 fill="currentColor"
@@ -36,7 +36,7 @@ const Footer = () => {
                 />
               </svg>
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-black">
+            <Link href="#" className="text-gray-600 hover:text-black" aria-label="Instagram">
               <svg
                 className="h-6 w-6"
                 fill="currentColor"
@@ -50,7 +50,7 @@ const Footer = () => {
                 />
               </svg>
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-black">
+            <Link href="#" className="text-gray-600 hover:text-black" aria-label="Twitter">
               <svg
                 className="h-6 w-6"
                 fill="currentColor"
