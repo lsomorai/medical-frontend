@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import FeatureCard from "@/components/FeatureCard"; // Adjust the path to your component
-import { LucideIcon, Home } from "lucide-react"; // Assuming Home icon is used for testing
+import FeatureCard from "@/components/FeatureCard";
+import { LucideIcon, Home } from "lucide-react"; 
 import "@testing-library/jest-dom";
 
 describe("FeatureCard Component", () => {
